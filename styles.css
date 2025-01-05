@@ -1,1 +1,71 @@
 /* Do not add any css, this is a bootstrap only assignment  */
+.carousel {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Slides styles */
+.first-slide {
+    background-color: #FFDDC1;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    line-height: 300px;
+    height: 300px;
+}
+
+.second-slide {
+    background-color: #FFABAB;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    line-height: 300px;
+    height: 300px;
+}
+
+.third-slide {
+    background-color: #FFC3A0;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    line-height: 300px;
+    height: 300px;
+}
+
+.fourth-slide {
+    background-color: #D5AAFF;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    line-height: 300px;
+    height: 300px;
+}
+
+.fifth-slide {
+    background-color: #85E3FF;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    line-height: 300px;
+    height: 300px;
+}
+
+/* Carousel controls */
+.carousel-control {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 5%;
+}
+
+.carousel-control:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Arrow icons */
+.glyphicon-chevron-left,
+.glyphicon-chevron-right {
+    font-size: 24px;
+    color: #fff;
+}
